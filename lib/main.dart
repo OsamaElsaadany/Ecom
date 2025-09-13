@@ -1,3 +1,4 @@
+import 'package:ecom/core/constants/appfonts.dart';
 import 'package:ecom/features/splash/pages/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,7 @@ class MainApp extends StatelessWidget {
           backgroundColor: Colors.white,
           centerTitle: true,
         ),
+        fontFamily: Appfonts.josFamily,
         scaffoldBackgroundColor: Colors.white,
       ),
     );

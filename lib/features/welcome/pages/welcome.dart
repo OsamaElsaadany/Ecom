@@ -1,5 +1,7 @@
 import 'package:ecom/core/constants/appcolors.dart';
 import 'package:ecom/core/constants/appimages.dart';
+import 'package:ecom/core/functions/navigation.dart';
+import 'package:ecom/features/home/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -54,7 +56,9 @@ class Welcome extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                     ),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    pushto(context, Home());
+                  },
                   child: Text(
                     'Let\'s Continue',
                     style: TextStyle(
